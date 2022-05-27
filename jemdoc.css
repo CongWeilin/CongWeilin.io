@@ -1,5 +1,9 @@
 /* Default css file for jemdoc. */
-
+#hp  {
+	float: right;    
+	 margin: 0 0 0 15px;
+	}
+	
 table#tlayout {
     border: none;
     border-collapse: separate;

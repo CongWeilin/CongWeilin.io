@@ -42,8 +42,16 @@ My research focuses on both the fundamental problems in graph representation lea
 </ul>
 Please refer to the publications for more details.
 
+
+<h2>Most recent update (05/26/2022)</h2>
+Our most recent work on <b>graph representation unlearning</b> is available online, in which our goal is to efficiently remove the effect of a node/edge on the pre-trained GNN model.
+<ul>
+  <li> <p> In <a href="files/GraphEditor.pdf">GraphEditor</a>, we first formulate GNNs as an alternative problem with closed-form solution, then we can edit the weight parameters based on the change of graph structure. </p> </li> <img src="files/which_node_get_affected_combined.jpg" alt="right" width="466px" height="200px" />
+  <li> <p> In <a href="files/Projector.pdf">Projector</a>, based on our observation that the linear GNN trained with logistic regression is in the linear span of all node features, we propose a projection-based unlearning approach that project the original weight paramters into a subspace that is irrelevant to the deleted node features.</p> </li> <img src="files/orthogonal_proj_weight.jpg" alt="right" width="388px" height="200px" />
+</ul>
+A short video presentation on a high-level introduction of our works will be released soon.
+
 <h2>Working Experience</h2>
-<p>I am honored to be able to work with great researchers from both industry and academic: </p>
 <ul>
   <li>
     <p>Meta AI Research, Menlo Park, CA</p>
@@ -51,6 +59,7 @@ Please refer to the publications for more details.
     <p>Supervisor: <a href="https://sizhang2.web.illinois.edu/">Si Zhang</a> </p>
     <p>Topic: Dynamic graph reasoning using Transformers </p>
   </li>
+  
   <li>
   <p>Meta AI Research, Remote, US</p>
   <p>Research intern, Jun.2021 - Aug.2021</p> 
